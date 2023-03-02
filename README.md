@@ -66,7 +66,7 @@ https://wireframepro.mockflow.com/view/M0BZ6dEEPob
 ### Additional Remarks
 
 Initially, I was thinking to use `Redux` to show the **CRUD** part (Import mock data directly and store state in components, use filter and map updating array in the state).\
- But after that, I consider using `TanStack Query` + `Mock Service Worker` instead, because it’s a better way to handle asynchronous data, and it supports refetch after mutation.\
+ But after that, I decided to use `TanStack Query` + `Mock Service Worker` instead, because it’s a better way to handle asynchronous data, and it supports refetch after mutation.\
  This will affect the functionality of the assignment and I’m not sure which way is closer to the evaluation criteria of the original design.
 
 ### Ref
